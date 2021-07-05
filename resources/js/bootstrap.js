@@ -12,6 +12,9 @@ try {
 
     require('bootstrap');
     require('admin-lte');
+    require( 'datatables.net' )();
+    require( 'datatables.net-buttons' )();
+    require( 'datatables.net-responsive' )();
 } catch (e) {}
 
 /**
